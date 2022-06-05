@@ -42,8 +42,8 @@ const Product = ({ product }) => {
                                         <Image layout={'responsive'} height={'0'} width={'0'} style={{ objectFit: 'scale-down'}} src={`https://api.extaz.pl${JSON.parse(product.images)[0]}`} />
                                     </Box>
                                     <Box>
-                                        { product.images && JSON.parse(product.images).map((image) => (
-                                                <Image height={50} width={50} src={`https://api.extaz.pl${image}`} style={{ objectFit: 'scale-down', maxHeight: '100px' }} onClick={handleImage} />
+                                        { product.images && JSON.parse(product.images).map((image, index) => (
+                                                <Image key={index} height={50} width={50} src={`https://api.extaz.pl${image}`} style={{ objectFit: 'scale-down', maxHeight: '100px' }} onClick={handleImage} />
                                             )
                                         )}
                                     </Box>

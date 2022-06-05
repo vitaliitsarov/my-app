@@ -29,13 +29,12 @@ const CategoriesContent = () => {
         router.push(`/category/${router.query.id}/?page=${value}`, undefined, { shallow: true });
     }
 
-    if (router.query.page) {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
         useEffect(() => {
             if (router.query.page) {
                 setPageIndex(parseInt(router.query.page));
             }
         }, [router.query.page]);
-    }
 
     return (
         <>

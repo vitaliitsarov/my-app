@@ -12,7 +12,7 @@ const Header = () => {
                 <Paper elevation={0}>
                     <Link href="/">
                         <a>
-                            <Image src={logo} width={'200px'}/>
+                            <Image src={logo} width={'200px'} alt={'logo'}/>
                         </a>
                     </Link>
                 </Paper>
