@@ -29,11 +29,13 @@ const CategoriesContent = () => {
         router.push(`/category/${router.query.id}/?page=${value}`, undefined, { shallow: true });
     }
 
-    useEffect(() => {
-        if (router.query.page) {
-            setPageIndex(parseInt(router.query.page));
-        }
-    }, [router.query.page]);
+    if (router.query.page) {
+        useEffect(() => {
+            if (router.query.page) {
+                setPageIndex(parseInt(router.query.page));
+            }
+        }, [router.query.page]);
+    }
 
     return (
         <>
