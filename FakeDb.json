@@ -1,0 +1,1092 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "parent_id": 0,
+      "title": "Suplementy",
+      "created_at": "2022-05-28T17:29:29.000000Z",
+      "updated_at": "2022-05-28T17:29:29.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 2,
+      "parent_id": 1,
+      "title": "Dla kobiet | Tabletki na podniecenie libido",
+      "created_at": "2022-05-28T17:29:29.000000Z",
+      "updated_at": "2022-05-28T17:29:29.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 3,
+      "parent_id": 2,
+      "title": "Ujędrnienie piersi pupa",
+      "created_at": "2022-05-28T17:29:29.000000Z",
+      "updated_at": "2022-05-28T17:29:29.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 4,
+      "parent_id": 0,
+      "title": "Drogeria intymna",
+      "created_at": "2022-05-28T17:31:47.000000Z",
+      "updated_at": "2022-05-28T17:31:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 5,
+      "parent_id": 4,
+      "title": "Kosmetyki dla kobiet",
+      "created_at": "2022-05-28T17:31:47.000000Z",
+      "updated_at": "2022-05-28T17:31:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 6,
+      "parent_id": 5,
+      "title": "pełne piersi",
+      "created_at": "2022-05-28T17:31:47.000000Z",
+      "updated_at": "2022-05-28T17:31:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 7,
+      "parent_id": 1,
+      "title": "Dla mężczyzn | Tabletki na erekcję potencję",
+      "created_at": "2022-05-28T17:31:47.000000Z",
+      "updated_at": "2022-05-28T17:31:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 8,
+      "parent_id": 7,
+      "title": "Powiększenie",
+      "created_at": "2022-05-28T17:31:47.000000Z",
+      "updated_at": "2022-05-28T17:31:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 9,
+      "parent_id": 7,
+      "title": "Dłuższy seks",
+      "created_at": "2022-05-28T17:31:48.000000Z",
+      "updated_at": "2022-05-28T17:31:48.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 10,
+      "parent_id": 0,
+      "title": "Krople podniecające",
+      "created_at": "2022-05-28T17:31:48.000000Z",
+      "updated_at": "2022-05-28T17:31:48.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 11,
+      "parent_id": 4,
+      "title": "Kosmetyki dla mężczyzn",
+      "created_at": "2022-05-28T17:31:48.000000Z",
+      "updated_at": "2022-05-28T17:31:48.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 12,
+      "parent_id": 11,
+      "title": "powiększenie penisa",
+      "created_at": "2022-05-28T17:31:48.000000Z",
+      "updated_at": "2022-05-28T17:31:48.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 13,
+      "parent_id": 5,
+      "title": "obkurczenie pochwy",
+      "created_at": "2022-05-28T17:31:49.000000Z",
+      "updated_at": "2022-05-28T17:31:49.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 14,
+      "parent_id": 11,
+      "title": "opóźnienie wytrysku",
+      "created_at": "2022-05-28T17:31:49.000000Z",
+      "updated_at": "2022-05-28T17:31:49.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 15,
+      "parent_id": 0,
+      "title": "Feromony",
+      "created_at": "2022-05-28T17:31:49.000000Z",
+      "updated_at": "2022-05-28T17:31:49.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 16,
+      "parent_id": 15,
+      "title": "Dla mężczyzn",
+      "created_at": "2022-05-28T17:31:49.000000Z",
+      "updated_at": "2022-05-28T17:31:49.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 17,
+      "parent_id": 15,
+      "title": "Dla kobiet",
+      "created_at": "2022-05-28T17:31:50.000000Z",
+      "updated_at": "2022-05-28T17:31:50.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 18,
+      "parent_id": 5,
+      "title": "Żel na libido hurtownia",
+      "created_at": "2022-05-28T17:31:50.000000Z",
+      "updated_at": "2022-05-28T17:31:50.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 19,
+      "parent_id": 11,
+      "title": "erekcja",
+      "created_at": "2022-05-28T17:31:52.000000Z",
+      "updated_at": "2022-05-28T17:31:52.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 20,
+      "parent_id": 4,
+      "title": "Żele Analne Hurtownia",
+      "created_at": "2022-05-28T17:31:53.000000Z",
+      "updated_at": "2022-05-28T17:31:53.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 21,
+      "parent_id": 4,
+      "title": "Bezpieczne lubrykanty hurtownia",
+      "created_at": "2022-05-28T17:31:53.000000Z",
+      "updated_at": "2022-05-28T17:31:53.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 22,
+      "parent_id": 0,
+      "title": "Gadżety",
+      "created_at": "2022-05-28T17:31:54.000000Z",
+      "updated_at": "2022-05-28T17:31:54.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 23,
+      "parent_id": 22,
+      "title": "Dla Kobiet",
+      "created_at": "2022-05-28T17:31:54.000000Z",
+      "updated_at": "2022-05-28T17:31:54.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 24,
+      "parent_id": 23,
+      "title": "kulki gejszy",
+      "created_at": "2022-05-28T17:31:54.000000Z",
+      "updated_at": "2022-05-28T17:31:54.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 25,
+      "parent_id": 7,
+      "title": "Potencja Eekcja",
+      "created_at": "2022-05-28T17:31:56.000000Z",
+      "updated_at": "2022-05-28T17:31:56.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 26,
+      "parent_id": 7,
+      "title": "Lepszy wytrysk",
+      "created_at": "2022-05-28T17:31:57.000000Z",
+      "updated_at": "2022-05-28T17:31:57.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 27,
+      "parent_id": 4,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T17:31:57.000000Z",
+      "updated_at": "2022-05-28T17:31:57.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 28,
+      "parent_id": 4,
+      "title": "Żele do fistingu",
+      "created_at": "2022-05-28T17:31:58.000000Z",
+      "updated_at": "2022-05-28T17:31:58.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 29,
+      "parent_id": 23,
+      "title": "Wibratory",
+      "created_at": "2022-05-28T17:31:59.000000Z",
+      "updated_at": "2022-05-28T17:31:59.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 30,
+      "parent_id": 29,
+      "title": "Klasyczne",
+      "created_at": "2022-05-28T17:31:59.000000Z",
+      "updated_at": "2022-05-28T17:31:59.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 31,
+      "parent_id": 2,
+      "title": "Wzmocnienie libido",
+      "created_at": "2022-05-28T17:32:01.000000Z",
+      "updated_at": "2022-05-28T17:32:01.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 32,
+      "parent_id": 4,
+      "title": "Masaż",
+      "created_at": "2022-05-28T17:32:06.000000Z",
+      "updated_at": "2022-05-28T17:32:06.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 33,
+      "parent_id": 23,
+      "title": "masażery łechtaczki",
+      "created_at": "2022-05-28T17:32:38.000000Z",
+      "updated_at": "2022-05-28T17:32:38.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 34,
+      "parent_id": 22,
+      "title": "Analne",
+      "created_at": "2022-05-28T17:32:39.000000Z",
+      "updated_at": "2022-05-28T17:32:39.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 35,
+      "parent_id": 34,
+      "title": "Korki z wibracją",
+      "created_at": "2022-05-28T17:32:39.000000Z",
+      "updated_at": "2022-05-28T17:32:39.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 36,
+      "parent_id": 34,
+      "title": "Masażery prostaty",
+      "created_at": "2022-05-28T17:32:39.000000Z",
+      "updated_at": "2022-05-28T17:32:39.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 37,
+      "parent_id": 23,
+      "title": "Dilda",
+      "created_at": "2022-05-28T17:32:40.000000Z",
+      "updated_at": "2022-05-28T17:32:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 38,
+      "parent_id": 34,
+      "title": "Korki bez wibracji",
+      "created_at": "2022-05-28T17:32:40.000000Z",
+      "updated_at": "2022-05-28T17:32:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 39,
+      "parent_id": 22,
+      "title": "Dla Mężczyzn",
+      "created_at": "2022-05-28T17:32:40.000000Z",
+      "updated_at": "2022-05-28T17:32:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 40,
+      "parent_id": 39,
+      "title": "masturbatory",
+      "created_at": "2022-05-28T17:32:40.000000Z",
+      "updated_at": "2022-05-28T17:32:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 41,
+      "parent_id": 40,
+      "title": "bez wibracji",
+      "created_at": "2022-05-28T17:32:40.000000Z",
+      "updated_at": "2022-05-28T17:32:40.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 42,
+      "parent_id": 22,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T17:32:41.000000Z",
+      "updated_at": "2022-05-28T17:32:41.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 43,
+      "parent_id": 39,
+      "title": "pierścienie",
+      "created_at": "2022-05-28T17:32:41.000000Z",
+      "updated_at": "2022-05-28T17:32:41.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 44,
+      "parent_id": 43,
+      "title": "bez wibracji",
+      "created_at": "2022-05-28T17:32:41.000000Z",
+      "updated_at": "2022-05-28T17:32:41.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 45,
+      "parent_id": 39,
+      "title": "pompki",
+      "created_at": "2022-05-28T17:32:43.000000Z",
+      "updated_at": "2022-05-28T17:32:43.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 46,
+      "parent_id": 39,
+      "title": "Nakładki",
+      "created_at": "2022-05-28T17:32:43.000000Z",
+      "updated_at": "2022-05-28T17:32:43.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 47,
+      "parent_id": 46,
+      "title": "powiększające",
+      "created_at": "2022-05-28T17:32:43.000000Z",
+      "updated_at": "2022-05-28T17:32:43.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 48,
+      "parent_id": 29,
+      "title": "Realistyczne",
+      "created_at": "2022-05-28T17:32:44.000000Z",
+      "updated_at": "2022-05-28T17:32:44.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 49,
+      "parent_id": 40,
+      "title": "z wibracją",
+      "created_at": "2022-05-28T17:32:47.000000Z",
+      "updated_at": "2022-05-28T17:32:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 50,
+      "parent_id": 0,
+      "title": "Śmieszne",
+      "created_at": "2022-05-28T17:33:18.000000Z",
+      "updated_at": "2022-05-28T17:33:18.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 51,
+      "parent_id": 0,
+      "title": "BDSM",
+      "created_at": "2022-05-28T17:33:20.000000Z",
+      "updated_at": "2022-05-28T17:33:20.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 52,
+      "parent_id": 51,
+      "title": "Kneble",
+      "created_at": "2022-05-28T17:33:20.000000Z",
+      "updated_at": "2022-05-28T17:33:20.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 53,
+      "parent_id": 46,
+      "title": "Stymulujące",
+      "created_at": "2022-05-28T17:33:21.000000Z",
+      "updated_at": "2022-05-28T17:33:21.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 54,
+      "parent_id": 29,
+      "title": "Wielofunkcyjne",
+      "created_at": "2022-05-28T17:33:21.000000Z",
+      "updated_at": "2022-05-28T17:33:21.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 55,
+      "parent_id": 23,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T17:33:34.000000Z",
+      "updated_at": "2022-05-28T17:33:34.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 56,
+      "parent_id": 0,
+      "title": "Gry",
+      "created_at": "2022-05-28T17:34:03.000000Z",
+      "updated_at": "2022-05-28T17:34:03.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 57,
+      "parent_id": 29,
+      "title": "Punkt G",
+      "created_at": "2022-05-28T17:34:06.000000Z",
+      "updated_at": "2022-05-28T17:34:06.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 58,
+      "parent_id": 51,
+      "title": "Krępowanie",
+      "created_at": "2022-05-28T17:34:14.000000Z",
+      "updated_at": "2022-05-28T17:34:14.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 59,
+      "parent_id": 51,
+      "title": "Bicze - piórka",
+      "created_at": "2022-05-28T17:34:14.000000Z",
+      "updated_at": "2022-05-28T17:34:14.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 60,
+      "parent_id": 51,
+      "title": "Obroże",
+      "created_at": "2022-05-28T17:34:14.000000Z",
+      "updated_at": "2022-05-28T17:34:14.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 61,
+      "parent_id": 23,
+      "title": "jajka wibrujące",
+      "created_at": "2022-05-28T17:34:30.000000Z",
+      "updated_at": "2022-05-28T17:34:30.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 62,
+      "parent_id": 34,
+      "title": "Korale",
+      "created_at": "2022-05-28T17:34:42.000000Z",
+      "updated_at": "2022-05-28T17:34:42.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 63,
+      "parent_id": 51,
+      "title": "Klipsy, Zaciski, Klamerki",
+      "created_at": "2022-05-28T17:34:44.000000Z",
+      "updated_at": "2022-05-28T17:34:44.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 64,
+      "parent_id": 0,
+      "title": "Bielizna",
+      "created_at": "2022-05-28T17:35:47.000000Z",
+      "updated_at": "2022-05-28T17:35:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 65,
+      "parent_id": 64,
+      "title": "Bielizna damska",
+      "created_at": "2022-05-28T17:35:47.000000Z",
+      "updated_at": "2022-05-28T17:35:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 66,
+      "parent_id": 65,
+      "title": "Majtki",
+      "created_at": "2022-05-28T17:35:47.000000Z",
+      "updated_at": "2022-05-28T17:35:47.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 67,
+      "parent_id": 65,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T18:53:11.000000Z",
+      "updated_at": "2022-05-28T18:53:11.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 68,
+      "parent_id": 51,
+      "title": "Pasy cnoty",
+      "created_at": "2022-05-28T18:53:13.000000Z",
+      "updated_at": "2022-05-28T18:53:13.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 69,
+      "parent_id": 51,
+      "title": "Zabawki medyczne",
+      "created_at": "2022-05-28T18:53:20.000000Z",
+      "updated_at": "2022-05-28T18:53:20.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 70,
+      "parent_id": 34,
+      "title": "Korki pompowane",
+      "created_at": "2022-05-28T18:53:27.000000Z",
+      "updated_at": "2022-05-28T18:53:27.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 71,
+      "parent_id": 43,
+      "title": "z wibracją",
+      "created_at": "2022-05-28T18:53:30.000000Z",
+      "updated_at": "2022-05-28T18:53:30.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 72,
+      "parent_id": 0,
+      "title": "Prezerwatywy hurtownia",
+      "created_at": "2022-05-28T18:53:56.000000Z",
+      "updated_at": "2022-05-28T18:53:56.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 73,
+      "parent_id": 65,
+      "title": "Koszulka",
+      "created_at": "2022-05-28T18:53:58.000000Z",
+      "updated_at": "2022-05-28T18:53:58.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 74,
+      "parent_id": 65,
+      "title": "Komplet",
+      "created_at": "2022-05-28T18:53:58.000000Z",
+      "updated_at": "2022-05-28T18:53:58.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 75,
+      "parent_id": 65,
+      "title": "Body",
+      "created_at": "2022-05-28T18:54:00.000000Z",
+      "updated_at": "2022-05-28T18:54:00.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 76,
+      "parent_id": 65,
+      "title": "Bodystocking",
+      "created_at": "2022-05-28T18:54:04.000000Z",
+      "updated_at": "2022-05-28T18:54:04.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 77,
+      "parent_id": 34,
+      "title": "Higiena",
+      "created_at": "2022-05-28T18:54:12.000000Z",
+      "updated_at": "2022-05-28T18:54:12.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 78,
+      "parent_id": 65,
+      "title": "Rajstopy",
+      "created_at": "2022-05-28T18:54:13.000000Z",
+      "updated_at": "2022-05-28T18:54:13.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 79,
+      "parent_id": 0,
+      "title": "TECH- nie dodawac do xml",
+      "created_at": "2022-05-28T18:54:48.000000Z",
+      "updated_at": "2022-05-28T18:54:48.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 80,
+      "parent_id": 0,
+      "title": "",
+      "created_at": "2022-05-28T18:55:36.000000Z",
+      "updated_at": "2022-05-28T18:55:36.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 81,
+      "parent_id": 0,
+      "title": "Usługi dodatkowe",
+      "created_at": "2022-05-28T18:55:49.000000Z",
+      "updated_at": "2022-05-28T18:55:49.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 82,
+      "parent_id": 22,
+      "title": "Lalki",
+      "created_at": "2022-05-28T18:56:08.000000Z",
+      "updated_at": "2022-05-28T18:56:08.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 83,
+      "parent_id": 82,
+      "title": "lalki kobiety",
+      "created_at": "2022-05-28T18:56:08.000000Z",
+      "updated_at": "2022-05-28T18:56:08.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 84,
+      "parent_id": 65,
+      "title": "Sukienka",
+      "created_at": "2022-05-28T18:56:16.000000Z",
+      "updated_at": "2022-05-28T18:56:16.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 85,
+      "parent_id": 65,
+      "title": "Plus Size",
+      "created_at": "2022-05-28T18:56:27.000000Z",
+      "updated_at": "2022-05-28T18:56:27.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 86,
+      "parent_id": 51,
+      "title": "Pompki na sutki",
+      "created_at": "2022-05-28T18:56:28.000000Z",
+      "updated_at": "2022-05-28T18:56:28.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 87,
+      "parent_id": 65,
+      "title": "Kostium",
+      "created_at": "2022-05-28T18:56:35.000000Z",
+      "updated_at": "2022-05-28T18:56:35.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 88,
+      "parent_id": 22,
+      "title": "Strap On",
+      "created_at": "2022-05-28T18:56:42.000000Z",
+      "updated_at": "2022-05-28T18:56:42.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 89,
+      "parent_id": 88,
+      "title": "Dla kobiet",
+      "created_at": "2022-05-28T18:56:42.000000Z",
+      "updated_at": "2022-05-28T18:56:42.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 90,
+      "parent_id": 29,
+      "title": "Podwójne",
+      "created_at": "2022-05-28T18:56:48.000000Z",
+      "updated_at": "2022-05-28T18:56:48.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 91,
+      "parent_id": 4,
+      "title": "Cleanery go gadżetów",
+      "created_at": "2022-05-28T18:56:54.000000Z",
+      "updated_at": "2022-05-28T18:56:54.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 92,
+      "parent_id": 0,
+      "title": "Techniczny -nie wpinac do xml",
+      "created_at": "2022-05-28T18:56:54.000000Z",
+      "updated_at": "2022-05-28T18:56:54.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 93,
+      "parent_id": 29,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T18:56:56.000000Z",
+      "updated_at": "2022-05-28T18:56:56.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 94,
+      "parent_id": 51,
+      "title": "Elektro-stymulacja",
+      "created_at": "2022-05-28T18:56:57.000000Z",
+      "updated_at": "2022-05-28T18:56:57.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 95,
+      "parent_id": 88,
+      "title": "Dla mężczyzn protezy",
+      "created_at": "2022-05-28T18:56:57.000000Z",
+      "updated_at": "2022-05-28T18:56:57.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 96,
+      "parent_id": 51,
+      "title": "Huśtawki",
+      "created_at": "2022-05-28T18:56:57.000000Z",
+      "updated_at": "2022-05-28T18:56:57.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 97,
+      "parent_id": 23,
+      "title": "Pompki dla kobiet",
+      "created_at": "2022-05-28T18:57:00.000000Z",
+      "updated_at": "2022-05-28T18:57:00.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 98,
+      "parent_id": 51,
+      "title": "Maski",
+      "created_at": "2022-05-28T18:57:02.000000Z",
+      "updated_at": "2022-05-28T18:57:02.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 99,
+      "parent_id": 0,
+      "title": "techboss -nie wpinac do xml",
+      "created_at": "2022-05-28T18:57:03.000000Z",
+      "updated_at": "2022-05-28T18:57:03.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 100,
+      "parent_id": 82,
+      "title": "Lalki mężczyźni",
+      "created_at": "2022-05-28T18:57:17.000000Z",
+      "updated_at": "2022-05-28T18:57:17.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 101,
+      "parent_id": 51,
+      "title": "Dilatory",
+      "created_at": "2022-05-28T18:57:19.000000Z",
+      "updated_at": "2022-05-28T18:57:19.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 102,
+      "parent_id": 65,
+      "title": "bielizna tech",
+      "created_at": "2022-05-28T18:57:43.000000Z",
+      "updated_at": "2022-05-28T18:57:43.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 103,
+      "parent_id": 0,
+      "title": "kosz -nie wpinac do xml",
+      "created_at": "2022-05-28T18:57:49.000000Z",
+      "updated_at": "2022-05-28T18:57:49.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 104,
+      "parent_id": 0,
+      "title": "Filmy DVD",
+      "created_at": "2022-05-28T18:57:56.000000Z",
+      "updated_at": "2022-05-28T18:57:56.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 105,
+      "parent_id": 64,
+      "title": "Bielizna męska",
+      "created_at": "2022-05-28T18:58:03.000000Z",
+      "updated_at": "2022-05-28T18:58:03.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 106,
+      "parent_id": 51,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T18:58:54.000000Z",
+      "updated_at": "2022-05-28T18:58:54.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 107,
+      "parent_id": 65,
+      "title": "Gorset",
+      "created_at": "2022-05-28T18:59:19.000000Z",
+      "updated_at": "2022-05-28T18:59:19.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 108,
+      "parent_id": 65,
+      "title": "Pończochy",
+      "created_at": "2022-05-28T18:59:20.000000Z",
+      "updated_at": "2022-05-28T18:59:20.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 109,
+      "parent_id": 65,
+      "title": "Pas do pończoch",
+      "created_at": "2022-05-28T18:59:20.000000Z",
+      "updated_at": "2022-05-28T18:59:20.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 110,
+      "parent_id": 65,
+      "title": "Nasutniki",
+      "created_at": "2022-05-28T18:59:35.000000Z",
+      "updated_at": "2022-05-28T18:59:35.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 111,
+      "parent_id": 65,
+      "title": "Buty",
+      "created_at": "2022-05-28T18:59:48.000000Z",
+      "updated_at": "2022-05-28T18:59:48.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 112,
+      "parent_id": 65,
+      "title": "Boa",
+      "created_at": "2022-05-28T19:03:10.000000Z",
+      "updated_at": "2022-05-28T19:03:10.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 113,
+      "parent_id": 34,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T19:26:58.000000Z",
+      "updated_at": "2022-05-28T19:26:58.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 114,
+      "parent_id": 0,
+      "title": "Suplementy własna marka",
+      "created_at": "2022-05-28T19:30:26.000000Z",
+      "updated_at": "2022-05-28T19:30:26.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 115,
+      "parent_id": 0,
+      "title": "VITA ZDROWIE",
+      "created_at": "2022-05-28T21:02:23.000000Z",
+      "updated_at": "2022-05-28T21:02:23.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 116,
+      "parent_id": 115,
+      "title": "Odżywki dla sportowców",
+      "created_at": "2022-05-28T21:02:23.000000Z",
+      "updated_at": "2022-05-28T21:02:23.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 117,
+      "parent_id": 115,
+      "title": "Zioła",
+      "created_at": "2022-05-28T21:02:24.000000Z",
+      "updated_at": "2022-05-28T21:02:24.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 118,
+      "parent_id": 115,
+      "title": "Odchudzanie",
+      "created_at": "2022-05-28T21:02:25.000000Z",
+      "updated_at": "2022-05-28T21:02:25.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 119,
+      "parent_id": 115,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T21:02:25.000000Z",
+      "updated_at": "2022-05-28T21:02:25.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 120,
+      "parent_id": 115,
+      "title": "Witaminy i minerałe",
+      "created_at": "2022-05-28T21:02:25.000000Z",
+      "updated_at": "2022-05-28T21:02:25.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 121,
+      "parent_id": 115,
+      "title": "Beauty",
+      "created_at": "2022-05-28T21:02:25.000000Z",
+      "updated_at": "2022-05-28T21:02:25.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 122,
+      "parent_id": 115,
+      "title": "Aromaterapia",
+      "created_at": "2022-05-28T21:02:28.000000Z",
+      "updated_at": "2022-05-28T21:02:28.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 123,
+      "parent_id": 115,
+      "title": "układ nerwowy",
+      "created_at": "2022-05-28T21:02:29.000000Z",
+      "updated_at": "2022-05-28T21:02:29.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 124,
+      "parent_id": 51,
+      "title": "Latex, Skóra",
+      "created_at": "2022-05-28T21:03:55.000000Z",
+      "updated_at": "2022-05-28T21:03:55.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 125,
+      "parent_id": 124,
+      "title": "latex damskie",
+      "created_at": "2022-05-28T21:03:55.000000Z",
+      "updated_at": "2022-05-28T21:03:55.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 126,
+      "parent_id": 22,
+      "title": "Zestawy",
+      "created_at": "2022-05-28T21:04:18.000000Z",
+      "updated_at": "2022-05-28T21:04:18.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 127,
+      "parent_id": 124,
+      "title": "latex męskie",
+      "created_at": "2022-05-28T21:06:11.000000Z",
+      "updated_at": "2022-05-28T21:06:11.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 128,
+      "parent_id": 4,
+      "title": "Lubrykanty Silikonowe",
+      "created_at": "2022-05-28T22:01:41.000000Z",
+      "updated_at": "2022-05-28T22:01:41.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 129,
+      "parent_id": 4,
+      "title": "Żele posiadające smak",
+      "created_at": "2022-05-28T22:01:41.000000Z",
+      "updated_at": "2022-05-28T22:01:41.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 130,
+      "parent_id": 65,
+      "title": "Biustonosze",
+      "created_at": "2022-05-28T22:02:58.000000Z",
+      "updated_at": "2022-05-28T22:02:58.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 131,
+      "parent_id": 65,
+      "title": "Babydoll",
+      "created_at": "2022-05-28T22:08:23.000000Z",
+      "updated_at": "2022-05-28T22:08:23.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 132,
+      "parent_id": 115,
+      "title": "Układ krążenia",
+      "created_at": "2022-05-28T22:10:58.000000Z",
+      "updated_at": "2022-05-28T22:10:58.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 133,
+      "parent_id": 115,
+      "title": "Aminokwasy",
+      "created_at": "2022-05-28T22:11:02.000000Z",
+      "updated_at": "2022-05-28T22:11:02.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 134,
+      "parent_id": 39,
+      "title": "EXTENDER",
+      "created_at": "2022-05-28T22:11:06.000000Z",
+      "updated_at": "2022-05-28T22:11:06.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 135,
+      "parent_id": 39,
+      "title": "Pozostałe",
+      "created_at": "2022-05-28T22:16:26.000000Z",
+      "updated_at": "2022-05-28T22:16:26.000000Z",
+      "deleted_at": null
+    },
+    {
+      "id": 136,
+      "parent_id": 22,
+      "title": "Masażer dla par",
+      "created_at": "2022-05-28T22:28:01.000000Z",
+      "updated_at": "2022-05-28T22:28:01.000000Z",
+      "deleted_at": null
+    }
+  ]
+}
