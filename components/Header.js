@@ -97,7 +97,7 @@ const Header = () => {
                                     // onClick={handleMenu}
                                     sx={{ marginRight: '15px' }}
                                 >
-                                    <Badge badgeContent={100} color="secondary">
+                                    <Badge badgeContent={0} color="secondary">
                                         <ShoppingCartOutlinedIcon fontSize={'large'} />
                                     </Badge>
                                 </IconButton>
