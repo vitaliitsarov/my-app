@@ -80,11 +80,11 @@ const Product = ({ product }) => {
                             </Box>
                         )}
 
-                        {product.price_netto && (
-                            <Box sx={{ marginBottom: '15px'}}>
-                                <Typography variant={'h5'} component={'h6'} sx={{ fontWeight: '600', color: '#3a4e5d'}}>{ product.price_netto * 1}{' '}zł</Typography>
-                            </Box>
-                        )}
+                        {/*{product.price_netto && (*/}
+                        {/*    <Box sx={{ marginBottom: '15px'}}>*/}
+                        {/*        <Typography variant={'h5'} component={'h6'} sx={{ fontWeight: '600', color: '#3a4e5d'}}>{ product.price_netto * 1}{' '}zł</Typography>*/}
+                        {/*    </Box>*/}
+                        {/*)}*/}
 
                         {product.barcode && (
                             <Box sx={{ marginBottom: '15px'}}>
