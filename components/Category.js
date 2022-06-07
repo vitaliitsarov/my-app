@@ -19,17 +19,7 @@ const fetcher = (url) => fetch(`https://api.extaz.pl${url}`,{
     })
 }).then((res) => res.json());
 
-
-
-
-
 const Category = () => {
-
-    const [open, setOpen] = React.useState(true);
-
-    const handleClick = () => {
-        setOpen(!open);
-    };
 
     const Tree = ({ category }) => {
         if(category.id == '79' || category.id == '80' || category.id == '92' || category.id == '99'  || category.id == '103') {
@@ -37,14 +27,13 @@ const Category = () => {
         }
         if(category.parent_id == 0) {
             return (
-                <ListItemButton onClick={handleClick}>
+                <ListItemButton>
                     <ListItemText primary={category.title}/>
                             {open ? <ExpandLess /> : <ExpandMore />}
                 </ListItemButton>
             )
         } else {
             return (
-                <Collapse in={open} timeout="auto" unmountOnExit>
                     <List component="div" disablePadding>
                         <Link href={`/category/${category.id}`} >
                             <a>
@@ -54,17 +43,13 @@ const Category = () => {
                             </a>
                         </Link>
                     </List>
-                </Collapse>
             )
         }
     }
 
-
-
     const { data, error } = useSwr(`/api/v1/categories`, fetcher);
 
     if (error) return <div>Failed to load users</div>;
-
 
     return (
             <>
