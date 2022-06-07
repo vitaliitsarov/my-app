@@ -4,15 +4,7 @@ import Image from 'next/image';
 import ReactHtmlParser from 'react-html-parser';
 
 // Design
-import {
-    Box,
-    Button,
-    Divider,
-    Grid,
-    Paper,
-    Typography,
-    Rating, Breadcrumbs, ListItem, Avatar, ListItemAvatar, ListItemText, List, ListItemIcon
-} from "@mui/material";
+import { Box, Button, Divider, Grid, Paper, Typography, Rating, ListItem, ListItemText, List, ListItemIcon} from "@mui/material";
 
 // Components
 import Layout from "../../components/Layout";
@@ -23,7 +15,7 @@ import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined
 import CreditScoreOutlinedIcon from '@mui/icons-material/CreditScoreOutlined';
 
 export async function getServerSideProps({ query }) {
-
+    console.log(console.log(process.env.API_TOKEN);
     const id = query.id;
     const res = await fetch(`https://api.extaz.pl/api/v1/products/${id}`,{
         method: 'GET',
@@ -51,7 +43,7 @@ const Product = ({ product }) => {
     }
 
     return (
-        <Layout>
+        <Layout title={product?.title} description={``}>
             <Paper sx={{ padding: 2, backgroundColor: 'white'}} elevation={0}>
                 <Grid container lg={12} >
                     <Grid item xs={12} lg={8}>

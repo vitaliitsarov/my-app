@@ -3,8 +3,8 @@ import Layout from "../../components/Layout";
 
 const Faq = () => {
     return (
-        <Layout>
-            Hello
+        <Layout title={`FAQ`}>
+            FAQ
         </Layout>
     );
 };

@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 
 const PrivacyPolicy = () => {
     return (
-        <Layout>
+        <Layout title={`Polityka prywatności`}>
             
         </Layout>
     );

@@ -3,7 +3,7 @@ import Layout from "../../components/Layout";
 
 const Regulamin = () => {
     return (
-        <Layout>
+        <Layout title={`Regulamin`}>
             
         </Layout>
     );

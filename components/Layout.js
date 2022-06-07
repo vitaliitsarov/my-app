@@ -1,16 +1,11 @@
 // Library
 import React from 'react';
 import useMediaQuery from "@mui/material/useMediaQuery";
-import {
-    useTheme
-} from "@material-ui/core/styles";
+import Head from "next/head"
+import { useTheme } from "@material-ui/core/styles";
 
 // Design
-import {
-    Box,
-    Container,
-    Grid
-} from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 
 // Components
 import Header from "./Header";
@@ -18,13 +13,18 @@ import Footer from "./Footer";
 import Category from "./Category";
 
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title, description }) => {
 
     const theme = useTheme();
     const isDesktop = useMediaQuery(theme.breakpoints.up("lg"));
 
     return (
         <>
+        <Head>
+            <meta name='description' content={description} />
+            <title>{title}</title>
+        </Head>
+
             <Header />
                 <Container sx={{ minHeight: '100vh'}}>
                     <Grid container spacing={3}>

@@ -7,7 +7,7 @@ import ProductsContent from "../components/products-content";
 function Home() {
 
   return (
-    <Layout>
+    <Layout title={`Strona główna`}>
         {/*<Filter />*/}
         <ProductsContent />
     </Layout>
