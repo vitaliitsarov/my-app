@@ -22,7 +22,7 @@ const ProductItem = ({ productImage, id, title }) => {
                     </a>
                 </Link>
                 <Box sx={{ paddingLeft: '16px', paddingRight: '16px', paddingBottom: '16px' }}>
-                    <Typography fontSize={14} component={'h6'} maxHeight={'60px'} height={'44px'} sx={{ fontWeight: "400", lineHeight: '1.5' }}>
+                    <Typography fontSize={14} component={'h6'} maxHeight={'60px'} height={'44px'} sx={{ fontWeight: "400", lineHeight: '1.5', overflow: 'hidden' }}>
                         { ReactHtmlParser(title) }
                     </Typography>
                 </Box>
