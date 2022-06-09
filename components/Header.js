@@ -78,43 +78,57 @@ const Header = () => {
         setOpen(false);
     };
 
+    const handleCartOpen = () => {
+        console.log('Open cart');
+    }
+
+    const handleCartClose = () => {
+        console.log('Close cart');
+    }
+
     return (
         <Box sx={{ marginBottom: '25px', backgroundColor: 'white' }}>
             <AppBar position="static" color="inherit">
-                <Container maxWidth="xl">
-                    <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
+                <Container maxWidth="lg" >
+                    <Toolbar disableGutters sx={{ justifyContent: "space-between" }} id="back-to-top-anchor">
                         <Link href="/">
                             <a>
                                 <Image src={logo} width={'200px'} alt={'logo'}/>
                             </a>
                         </Link>
-                        {isMobile && (
                             <Box>
-                                <IconButton
-                                    edge="start"
-                                    color="inherit"
-                                    aria-label="menu"
-                                    // onClick={handleMenu}
-                                    sx={{ marginRight: '15px' }}
-                                >
-                                    <Badge badgeContent={0} color="secondary">
-                                        <ShoppingCartOutlinedIcon fontSize={'large'} />
-                                    </Badge>
-                                </IconButton>
-                                <IconButton
-                                    edge="start"
-                                    color="inherit"
-                                    aria-label="menu"
-                                    onClick={handleDrawerOpen}
-                                >
-                                    <MenuIcon fontSize={'large'} />
-                                </IconButton>
+                                <Link href={'/cart'} >
+                                    <a>
+                                        <IconButton
+                                            edge="start"
+                                            color="inherit"
+                                            aria-label="menu"
+                                            onClick={handleCartOpen}
+                                            sx={{ marginRight: '15px' }}
+                                        >
+                                            <Badge badgeContent={0} color="secondary">
+                                                <ShoppingCartOutlinedIcon fontSize={'large'} />
+                                            </Badge>
+                                        </IconButton>
+                                    </a>
+                                </Link>
+                                {isMobile && (
+                                    <IconButton
+                                        edge="start"
+                                        color="inherit"
+                                        aria-label="menu"
+                                        onClick={handleDrawerOpen}
+                                    >
+                                        <MenuIcon fontSize={'large'} />
+                                    </IconButton>
+                                ) }
+
                             </Box>
-                            ) }
                     </Toolbar>
                 </Container>
             </AppBar>
             <CategoriesHeaderMobile handleDrawerClose={handleDrawerClose} open={open} />
+
         </Box>
     );
 };

@@ -15,7 +15,6 @@ import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined
 import CreditScoreOutlinedIcon from '@mui/icons-material/CreditScoreOutlined';
 
 export async function getServerSideProps({ query }) {
-    console.log(console.log(process.env.API_TOKEN);
     const id = query.id;
     const res = await fetch(`https://api.extaz.pl/api/v1/products/${id}`,{
         method: 'GET',
@@ -26,7 +25,7 @@ export async function getServerSideProps({ query }) {
         })
     });
     const { data: product } = await res.json();
-
+    console.log(product);
     return {
         props: {
             product,

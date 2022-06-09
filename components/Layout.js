@@ -11,7 +11,7 @@ import { Box, Container, Grid } from "@mui/material";
 import Header from "./Header";
 import Footer from "./Footer";
 import Category from "./Category";
-
+import BackToTop from "./BackToTop";
 
 const Layout = ({ children, title, description }) => {
 
@@ -41,6 +41,8 @@ const Layout = ({ children, title, description }) => {
                         </Grid>
                     </Grid>
                 </Container>
+
+                <BackToTop />
             <Footer />
         </>
     );
