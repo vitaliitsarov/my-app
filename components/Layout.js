@@ -1,8 +1,7 @@
 // Library
 import React from 'react';
-import useMediaQuery from "@mui/material/useMediaQuery";
-import Head from "next/head"
-import { useTheme } from "@material-ui/core/styles";
+import Head from "next/head";
+import { useTheme, useMediaQuery } from "@mui/material";
 
 // Design
 import { Box, Container, Grid } from "@mui/material";

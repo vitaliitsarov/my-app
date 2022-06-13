@@ -2,12 +2,8 @@
 import React, {useState} from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import  {connect} from  'react-redux'
-import useMediaQuery from '@mui/material/useMediaQuery';
-import {
-    styled,
-    useTheme
-} from "@material-ui/core/styles";
+import  {connect} from  'react-redux';
+
 
 // Design
 import {
@@ -16,8 +12,11 @@ import {
     Container,
     IconButton,
     Toolbar, Typography,
+    useTheme,
+    styled
 } from "@mui/material";
 import MuiAppBar from '@mui/material/AppBar';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 // Icon
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
@@ -79,14 +78,6 @@ const Header = ({ numberCart }) => {
         setOpen(false);
     };
 
-    const handleCartOpen = () => {
-        console.log('Open cart');
-    }
-
-    const handleCartClose = () => {
-        console.log('Close cart');
-    }
-
     return (
         <Box sx={{ marginBottom: '25px', backgroundColor: 'white' }}>
             <Box sx={{
@@ -112,7 +103,6 @@ const Header = ({ numberCart }) => {
                                             edge="start"
                                             color="inherit"
                                             aria-label="menu"
-                                            onClick={handleCartOpen}
                                             sx={{ marginRight: '15px' }}
                                         >
                                             <Badge badgeContent={numberCart} color="secondary">

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Divider, Drawer, IconButton, List} from "@mui/material";
+import {styled, useTheme, Divider, Drawer, IconButton, List} from "@mui/material";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import Category from "../Category";
-import {styled, useTheme} from "@material-ui/core/styles";
+
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 const DrawerHeader = styled('div')(({ theme }) => ({
