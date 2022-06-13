@@ -2,9 +2,12 @@
 import React, {useState} from 'react';
 import Image from 'next/image';
 import ReactHtmlParser from 'react-html-parser';
+import { connect } from 'react-redux';
 
 // Design
 import { Box, Button, Divider, Grid, Paper, Typography, Rating, ListItem, ListItemText, List, ListItemIcon} from "@mui/material";
+
+import { AddCart } from '../../store/actions/cartActions';
 
 // Components
 import Layout from "../../components/Layout";
@@ -32,7 +35,7 @@ export async function getServerSideProps({ query }) {
     }
 }
 
-const Product = ({ product }) => {
+const Product = ({ product, AddCart }) => {
 
     const [value, setValue] = useState(2);
 
@@ -111,7 +114,7 @@ const Product = ({ product }) => {
                         </Box>
 
                         <Box >
-                            <Button variant="contained" size={'large'} startIcon={<AddShoppingCartOutlinedIcon />} fullWidth={true} >
+                            <Button variant="contained" size={'large'} startIcon={<AddShoppingCartOutlinedIcon />} fullWidth={true} onClick={() => AddCart(product)} >
                                 Dodaj do koszyka
                             </Button>
                         </Box>
@@ -133,5 +136,18 @@ const Product = ({ product }) => {
     );
 };
 
-export default Product;
+const mapStateToProps = state =>{
+    return {
+        _products: state.cart,
+    };
+}
+function mapDispatchToProps(dispatch){
+    return{
+        actFetchProductsRequest: () => dispatch(actFetchProductsRequest()),
+        AddCart: item => dispatch(AddCart(item))
+
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Product);
 

@@ -1,30 +1,49 @@
-import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING} from '../types';
+import * as ActionTypes from '../types';
 
-//add cart action
-export const addToCart= (id)=>{
+/*GET_ALL_PRODUCT*/
+export function GetAllProduct(payload){
     return{
-        type: ADD_TO_CART,
-        id
+        type: ActionTypes.GET_ALL_PRODUCT,
+        payload
     }
 }
-//remove item action
-export const removeItem=(id)=>{
+
+/*GET NUMBER CART*/
+export function GetNumberCart(){
     return{
-        type: REMOVE_ITEM,
-        id
+        type: ActionTypes.GET_NUMBER_CART
     }
 }
-//subtract qt action
-export const subtractQuantity=(id)=>{
-    return{
-        type: SUB_QUANTITY,
-        id
+
+export function AddCart(payload){
+    console.log(payload);
+    return {
+        type: ActionTypes.ADD_CART,
+        payload
     }
 }
-//add qt action
-export const addQuantity=(id)=>{
+export function UpdateCart(payload){
+    return {
+        type: ActionTypes.UPDATE_CART,
+        payload
+    }
+}
+export function DeleteCart(payload){
     return{
-        type: ADD_QUANTITY,
-        id
+        type: ActionTypes.DELETE_CART,
+        payload
+    }
+}
+
+export function IncreaseQuantity(payload){
+    return{
+        type: ActionTypes.INCREASE_QUANTITY,
+        payload
+    }
+}
+export function DecreaseQuantity(payload){
+    return{
+        type: ActionTypes.DECREASE_QUANTITY,
+        payload
     }
 }

@@ -7,7 +7,7 @@ import rootReducer from "./reducers";
 const cartItems = [];
 
 // initial states here
-const initalState = { cart: { items: cartItems } };
+const initalState = {};
 
 // middleware
 const middleware = [thunk];

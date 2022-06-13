@@ -2,6 +2,7 @@
 import React, {useState} from 'react';
 import Image from "next/image";
 import Link from "next/link";
+import  {connect} from  'react-redux'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import {
     styled,
@@ -14,7 +15,7 @@ import {
     Box,
     Container,
     IconButton,
-    Toolbar,
+    Toolbar, Typography,
 } from "@mui/material";
 import MuiAppBar from '@mui/material/AppBar';
 
@@ -64,7 +65,7 @@ const AppBar = styled(MuiAppBar, {
     }),
 }));
 
-const Header = () => {
+const Header = ({ numberCart }) => {
     const theme = useTheme();
     const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
@@ -88,6 +89,14 @@ const Header = () => {
 
     return (
         <Box sx={{ marginBottom: '25px', backgroundColor: 'white' }}>
+            <Box sx={{
+                backgroundColor: '#973232',
+                p: '5px 25px 5px 25px',
+                color: '#fff',
+                textAlign: 'center',
+            }}>
+                <Typography>Uwaga! Możliwość zamówienia towaru wyłączona! Strona jest w fazie rozwoju.</Typography>
+            </Box>
             <AppBar position="static" color="inherit">
                 <Container maxWidth="lg" >
                     <Toolbar disableGutters sx={{ justifyContent: "space-between" }} id="back-to-top-anchor">
@@ -106,7 +115,7 @@ const Header = () => {
                                             onClick={handleCartOpen}
                                             sx={{ marginRight: '15px' }}
                                         >
-                                            <Badge badgeContent={0} color="secondary">
+                                            <Badge badgeContent={numberCart} color="secondary">
                                                 <ShoppingCartOutlinedIcon fontSize={'large'} />
                                             </Badge>
                                         </IconButton>
@@ -133,4 +142,10 @@ const Header = () => {
     );
 };
 
-export default Header;
+const mapStateToProps = state =>{
+    return{
+        numberCart:state.cart.numberCart
+    }
+}
+
+export default connect(mapStateToProps,null)(Header)

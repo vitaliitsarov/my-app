@@ -1,103 +1,93 @@
-import { ADD_TO_CART,REMOVE_ITEM,SUB_QUANTITY,ADD_QUANTITY,ADD_SHIPPING } from '../types';
+import * as actionTypes from '../types';
 
 const initState = {
-    items: [],
-    addedItems:[],
-    total: 0
+    Carts: [],
+    numberCart: 0,
+    _products: []
 }
 
-const cartReducer= (state = initState,action)=>{
-
-    //INSIDE HOME COMPONENT
-    if(action.type === ADD_TO_CART){
-        let addedItem = state.items.find(item=> item.id === action.id)
-        //check if the action id exists in the addedItems
-        let existed_item= state.addedItems.find(item=> action.id === item.id)
-        if(existed_item)
-        {
-            addedItem.quantity += 1
+const cartReducer = (state = initState, action)=>{
+    switch(action.type){
+        case actionTypes.GET_ALL_PRODUCT:
             return{
                 ...state,
-                total: state.total + addedItem.price
+                _products:action.payload
             }
-        }
-        else{
-            addedItem.quantity = 1;
-            //calculating the total
-            let newTotal = state.total + addedItem.price
-
+        case actionTypes.GET_NUMBER_CART:
+            return{
+                ...state
+            }
+        case actionTypes.ADD_CART:
+            if(state.numberCart === 0){
+                let cart = {
+                    id: action.payload.id,
+                    title: action.payload.title,
+                    price_brutto: action.payload.price_brutto,
+                    vat: action.payload.vat,
+                    stock: action.payload.stock,
+                    barcode: action.payload.barcode,
+                    description: action.payload.description,
+                    quantity: 1,
+                    image: JSON.parse(action.payload.images)[0],
+                }
+                state.Carts.push(cart);
+            } else{
+                let check = false;
+                state.Carts.map((item,key)=>{
+                    if(item.id === action.payload.id){
+                        state.Carts[key].quantity++;
+                        check = true;
+                    }
+                });
+                if(!check){
+                    let _cart = {
+                        id: action.payload.id,
+                        title: action.payload.title,
+                        price_brutto: action.payload.price_brutto,
+                        vat: action.payload.vat,
+                        stock: action.payload.stock,
+                        barcode: action.payload.barcode,
+                        description: action.payload.description,
+                        quantity: 1,
+                        image: JSON.parse(action.payload.images)[0],
+                    }
+                    state.Carts.push(_cart);
+                }
+            }
             return{
                 ...state,
-                addedItems: [...state.addedItems, addedItem],
-                total : newTotal
+                numberCart: state.numberCart + 1
+            }
+        case actionTypes.INCREASE_QUANTITY:
+            state.numberCart++
+            state.Carts[action.payload].quantity++;
+
+            return{
+                ...state
+            }
+        case actionTypes.DECREASE_QUANTITY:
+            let quantity = state.Carts[action.payload].quantity;
+            if(quantity>1){
+                state.numberCart--;
+                state.Carts[action.payload].quantity--;
             }
 
-        }
-    }
-    if(action.type === REMOVE_ITEM){
-        let itemToRemove= state.addedItems.find(item=> action.id === item.id)
-        let new_items = state.addedItems.filter(item=> action.id !== item.id)
-
-        //calculating the total
-        let newTotal = state.total - (itemToRemove.price * itemToRemove.quantity )
-        console.log(itemToRemove)
-        return{
-            ...state,
-            addedItems: new_items,
-            total: newTotal
-        }
-    }
-    //INSIDE CART COMPONENT
-    if(action.type=== ADD_QUANTITY){
-        let addedItem = state.items.find(item=> item.id === action.id)
-        addedItem.quantity += 1
-        let newTotal = state.total + addedItem.price
-        return{
-            ...state,
-            total: newTotal
-        }
-    }
-    if(action.type=== SUB_QUANTITY){
-        let addedItem = state.items.find(item=> item.id === action.id)
-        //if the qt == 0 then it should be removed
-        if(addedItem.quantity === 1){
-            let new_items = state.addedItems.filter(item=>item.id !== action.id)
-            let newTotal = state.total - addedItem.price
+            return{
+                ...state
+            }
+        case actionTypes.DELETE_CART:
+            let quantity_ = state.Carts[action.payload].quantity;
             return{
                 ...state,
-                addedItems: new_items,
-                total: newTotal
+                numberCart:state.numberCart - quantity_,
+                Carts:state.Carts.filter(item=>{
+                    return item.id !== state.Carts[action.payload].id
+                })
+
             }
-        }
-        else {
-            addedItem.quantity -= 1
-            let newTotal = state.total - addedItem.price
-            return{
-                ...state,
-                total: newTotal
-            }
-        }
-
+        default:
+            return state;
     }
-
-    if(action.type=== ADD_SHIPPING){
-        return{
-            ...state,
-            total: state.total + 6
-        }
-    }
-
-    if(action.type=== 'SUB_SHIPPING'){
-        return{
-            ...state,
-            total: state.total - 6
-        }
-    }
-
-    else{
-        return state
-    }
-
 }
 
 export default cartReducer
